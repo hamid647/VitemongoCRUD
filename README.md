@@ -1,12 +1,47 @@
-# React + Vite
+# 🚀 MongoDB CRUD App with Vite, React & Express
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack CRUD (Create, Read, Update, Delete) application built using:
+- **Frontend:** Vite + React
+- **Backend:** Node.js + Express
+- **Database:** MongoDB + Mongoose
 
-Currently, two official plugins are available:
+This app lets you manage a list of users by adding, editing, and deleting them from a MongoDB database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📷 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot of the app showing a modern UI with form inputs and a user table](screenshot.png)
+
+> ✅ Add new users  
+✅ View all users  
+✅ Edit existing users  
+✅ Delete unwanted users  
+✅ Form validation & error handling  
+
+---
+
+## 📦 Features
+
+| Feature       | Description |
+|---------------|-------------|
+| **Create**    | Add a new user with name, email, and verified status. |
+| **Read**      | Display all users in a responsive table. |
+| **Update**    | Edit an existing user’s details. |
+| **Delete**    | Remove a user from the database with confirmation. |
+| **Validation**| Prevent duplicate emails and handle invalid input gracefully. |
+
+---
+
+## 🔧 Technologies Used
+
+| Layer        | Technology     |
+|-------------|----------------|
+| **Frontend** | React, Vite, CSS |
+| **Backend**  | Node.js, Express |
+| **Database** | MongoDB, Mongoose |
+| **Others**   | CORS, Dotenv, JSON |
+
+---
+
+## 📁 Project Structure
